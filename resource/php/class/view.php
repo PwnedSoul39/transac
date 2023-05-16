@@ -11,7 +11,7 @@
             echo '<h3 class="text-center mt-3 mb-3">Pending List</h3>';
             echo '
                 <table class="table table-striped table-bordered mb-5">
-                    <thead>
+                    <thead class="table-dark font-italic">
                         <tr>
                             <th class="text-center">Token</th>
                             <th class="text-center">Name</th>
@@ -26,8 +26,8 @@
                         <td class="text-center">'.$data['ts_qnum'].'</td>
                         <td class="text-center">'.$data['ts_user'].'</td>
                         <td class="text-center">
-                            <a class="btn btn-success btn-sm " href="queue.php?edit='.$data['ts_id'].'">Next</a>
-                            <a class="btn btn-danger btn-sm " href="queue.php?delete='.$data['ts_id'].'">Cancel</a>
+                            <a class="shit btn btn-success btn-sm " href="queue.php?edit='.$data['ts_id'].'">Next</a>
+                            <a class="shit btn btn-danger btn-sm " href="queue.php?delete='.$data['ts_id'].'">Cancel</a>
                         </td>
                     </tr>
                 ';
@@ -48,7 +48,7 @@
             echo '<h3 class="text-center mt-3 mb-3">Next in Line</h3>';
             echo '
                 <table class="table table-striped table-bordered mb-5">
-                    <thead>
+                    <thead class="table-dark font-italic">
                         <tr>
                             <th class="text-center">Token</th>
                             <th class="text-center">Name</th>
@@ -63,7 +63,7 @@
                         <td class="text-center">'.$data['ts_qnum'].'</td>
                         <td class="text-center">'.$data['ts_user'].'</td>
                         <td class="text-center">
-                            <a class="btn btn-primary" href="queue.php?next='.$data['ts_id'].'">Call</a>
+                            <a class="shit btn btn-primary" href="queue.php?next='.$data['ts_id'].'">Call</a>
                         </td>
                     </tr>
                 ';

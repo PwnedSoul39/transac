@@ -18,7 +18,7 @@
         <header>
             <nav class="navbar nav-dash">
                 <i class="fa-solid fa-house"></i>
-                <a href="./queue.php">Dashboard</a>
+                <a class="board ml-3" href="./queue.php">Dashboard</a>
             </nav>
         </header>
         <main class="container-fluid">

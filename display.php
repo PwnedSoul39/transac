@@ -14,9 +14,6 @@
     <link rel="stylesheet"  type="text/css" href="./resource/css/display.css">
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,600&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap" rel="stylesheet">
-
-
-
     <title>Queue Display</title>
   </head>
   <body>
